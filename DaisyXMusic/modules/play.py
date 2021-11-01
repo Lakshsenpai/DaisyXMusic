@@ -642,11 +642,11 @@ async def play(_, message: Message):
             j = 0
             useer = user_name
             emojilist = [
-                "1️⃣",
-                "2️⃣",
-                "3️⃣",
-                "4️⃣",
-                "5️⃣",
+                "➊",
+                "➋",
+                "➌",
+                "➍",
+                "➎",
             ]
 
             while j < 5:
@@ -660,21 +660,21 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            "1️⃣", callback_data=f"plll 0|{query}|{user_id}"
+                            "➊", callback_data=f"plll 0|{query}|{user_id}"
                         ),
                         InlineKeyboardButton(
-                            "2️⃣", callback_data=f"plll 1|{query}|{user_id}"
+                            "➋", callback_data=f"plll 1|{query}|{user_id}"
                         ),
                         InlineKeyboardButton(
-                            "3️⃣", callback_data=f"plll 2|{query}|{user_id}"
+                            "➌", callback_data=f"plll 2|{query}|{user_id}"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            "4️⃣", callback_data=f"plll 3|{query}|{user_id}"
+                            "➍", callback_data=f"plll 3|{query}|{user_id}"
                         ),
                         InlineKeyboardButton(
-                            "5️⃣", callback_data=f"plll 4|{query}|{user_id}"
+                            "➎", callback_data=f"plll 4|{query}|{user_id}"
                         ),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
